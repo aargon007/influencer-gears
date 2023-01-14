@@ -211,7 +211,9 @@ li a{
         align-items: center;
         padding: 35px 15px;
     }
-    .dropbtn, .cart {
+    .dropbtn, .cart .fa-solid{
+        width: 24px;
+        height: 24px;
         padding: 16px;
         font-size: 16px;
         border: none;
@@ -263,7 +265,7 @@ li a{
         margin: 0 auto;
     }
     .sponsored{
-        padding: 40px 50px;
+        padding: 40px 40px;
     }
     .sponsor{
          flex-wrap: wrap;
