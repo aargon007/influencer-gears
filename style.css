@@ -312,38 +312,17 @@ li a{
     }
 }
 
-@media screen and (min-width: 577px) and (max-width: 992px){
+@media screen and (min-width: 577) and (max-width: 992px){
     .responsive-nav-bar{
-        display: none ;
+        display: none;
     }
     img {
         width: 100%;
         height: 100%;
     }
-    .influencer-journey {
-        gap: 15px;
-        padding: 10px 20px;
-    }
-    .section-title{
-        font-size: 2rem;
-    }
-    .btn-primary {
-        margin: 0 auto;
-    }
-    .sponsored{
-        padding: 40px 40px;
-    }
-    .sponsor{
-         flex-wrap: wrap;
-         gap: 30px;
-         padding: 0;
-    }
     .sponsor img{
         width: fit-content;
         height: fit-content;
-    }
-    .collection-title{
-        padding: 20px 105px;
     }
     .collection-container{
         grid-template-columns: repeat(2, 1fr);
@@ -358,12 +337,6 @@ li a{
         padding: 30px;
         text-align: center;
         margin-bottom: 20px;
-    }
-    .feture-title{
-        font-size: 30px;
-    }
-    .product-details .section-description{
-        padding: 10px;
     }
     .footer{
         padding: 50px 60px;
