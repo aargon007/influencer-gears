@@ -311,3 +311,115 @@ li a{
         width: 30px;
     }
 }
+
+@media screen and (min-width: 577px) and (max-width: 992px){
+    .header{
+        display: none;
+    }
+    .responsive-nav-bar{
+        display: flex;
+        gap: 60px;
+        justify-content: space-between;
+        align-items: center;
+        padding: 35px 15px;
+    }
+    .dropbtn, .cart .fa-solid{
+        width: 24px;
+        height: 24px;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+    }
+      
+      .menu-bar {
+        position: relative;
+        display: inline-block;
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      .dropdown-content a:hover {background-color: #189733}
+      
+      .menu-bar:hover .dropdown-content {
+        display: block;
+      }
+      /* .menu-bar:hover .dropbtn {
+        background-color: #3e8e41;
+      } */
+    img {
+        width: 100%;
+        height: 100%;
+    }
+    .influencer-journey {
+        flex-direction: column-reverse;
+        gap: 15px;
+        padding: 10px 20px;
+        text-align: center;
+    }
+    .section-title{
+        font-size: 2rem;
+    }
+    .btn-primary {
+        margin: 0 auto;
+    }
+    .sponsored{
+        padding: 40px 40px;
+    }
+    .sponsor{
+         flex-wrap: wrap;
+         gap: 30px;
+         padding: 0;
+    }
+    .sponsor img{
+        width: fit-content;
+        height: fit-content;
+    }
+    .collection-title{
+        padding: 20px 105px;
+    }
+    .collection-container{
+        grid-template-columns: repeat(2, 1fr);
+        padding: 15px;
+    }
+    .see-more{
+        padding: 20px;
+    }
+    .feature{
+        flex-direction: column-reverse;
+        gap: 30px;
+        padding: 30px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .feture-title{
+        font-size: 2rem;
+    }
+    .product-details .section-description{
+        padding: 10px;
+    }
+    .footer{
+        padding: 50px 60px;
+    }
+    .footer-icon{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+    .footer-icon img{
+        width: 30px;
+    }
+}
